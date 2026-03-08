@@ -1,1 +1,14 @@
-
+{
+  "scripts": [
+    {
+      "code": "101",
+      "description": "Limpiar archivos temporales",
+      "bat_content": "@echo off\ndel /s /f /q %temp%\\*.*"
+    },
+    {
+      "code": "202",
+      "description": "Reiniciar Explorador de Windows",
+      "bat_content": "taskkill /f /im explorer.exe\nstart explorer.exe"
+    }
+  ]
+}
